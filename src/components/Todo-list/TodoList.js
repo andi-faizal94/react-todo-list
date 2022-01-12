@@ -1,16 +1,13 @@
 import "../Todo-list/TodoList.css";
 
-const Todolist = () => {
+const Todolist = (props) => {
+  console.log(props.dataTodos);
   return (
-    <>
-      <div className="list">
-        <ul>
-          <li>
-            <a href="/">a</a>
-          </li>
-        </ul>
-      </div>
-    </>
+    <ul>
+      {props.dataTodos.map((todo) => {
+        return <li key="{todo.id}">{todo.title}</li>;
+      })}
+    </ul>
   );
 };
 

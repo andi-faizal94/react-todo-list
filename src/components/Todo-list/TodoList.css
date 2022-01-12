@@ -1,3 +1,5 @@
-.list {
-  color: blue;
+ul > li {
+  border: 1px solid turquoise;
+  padding: 10px;
+  margin: 10px;
 }
