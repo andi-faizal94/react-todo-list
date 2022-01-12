@@ -16,7 +16,7 @@ const TodoCreate = (props) => {
 
   const handleInputTodo = (event) => {
     setInputTodo(event.target.value);
-    console.log(getInputTodo);
+    // console.log(getInputTodo);
   };
   return (
     <form className="todo-form" onSubmit={handleSubmit}>

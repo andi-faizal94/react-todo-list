@@ -7,20 +7,20 @@ const Todo = () => {
   const [getTodos, setTodos] = useState([
     {
       id: 1,
-      title: "andi",
+      title: "praying at subuh",
     },
     {
       id: 2,
-      title: "faizal",
+      title: "gym",
     },
     {
       id: 3,
-      title: "kamua",
+      title: "working",
     },
   ]);
   const eventCreateTodo = (todo) => {
     setTodos(getTodos.concat(todo));
-    console.log(getTodos);
+    // console.log(getTodos);
   };
   return (
     <div className="App">
