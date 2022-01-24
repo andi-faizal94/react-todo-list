@@ -21,7 +21,9 @@ const TodoCreate = (props) => {
   return (
     <form className="todo-form" onSubmit={handleSubmit}>
       <input type="text" value={getInputTodo} onChange={handleInputTodo} />
-      <button type="submit">Add</button>
+      <button className="btn" type="submit">
+        Add
+      </button>
     </form>
   );
 };

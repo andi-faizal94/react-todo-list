@@ -7,15 +7,7 @@ const Todo = () => {
   const [getTodos, setTodos] = useState([
     {
       id: 1,
-      title: "praying at subuh",
-    },
-    {
-      id: 2,
-      title: "gym",
-    },
-    {
-      id: 3,
-      title: "working",
+      title: "learning react",
     },
   ]);
   const eventCreateTodo = (todo) => {
